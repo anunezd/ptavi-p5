@@ -101,7 +101,7 @@ dirección SIP? Si. From: "Gregorio Robles" <sip:grex@ekiga.net>.
 11. Una vez conectado, estudia el intercambio de tramas.
 * ¿Qué protocolo(s) se utiliza(n)? H.261 ¿Para qué sirven estos protocolos? Para compresion de video y transmision en tiempo real respectivamente 
 * ¿Cuál es el tamaño de paquete de los mismos? Hay H.261 con un tamaño que ronda los 1000 bytes y otros que rondan los 300, sin embargo los RTP tienen siempre 214 bytes.
-* ¿Se utilizan bits de padding?
+* ¿Se utilizan bits de padding? No parece. ..0. .... = Padding: False.
 * ¿Cuál es la periodicidad de los paquetes (en origen; nota que la
 captura es en destino)?
 * ¿Cuántos bits/segundo se envı́an?
